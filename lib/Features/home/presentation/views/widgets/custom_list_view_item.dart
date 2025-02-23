@@ -11,12 +11,13 @@ class CustomListViewItem extends StatelessWidget {
         padding: const EdgeInsets.only(right: 10),
         child: Container(
           decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(16),
-              image: DecorationImage(
-                  image: AssetImage(
-                    'assets/images/book4.jpg',
-                  ),
-                  fit: BoxFit.fill)),
+            borderRadius: BorderRadius.circular(16),
+            image: DecorationImage(
+                image: AssetImage(
+                  'assets/images/book4.jpg',
+                ),
+                fit: BoxFit.fill),
+          ),
         ),
       ),
     );
