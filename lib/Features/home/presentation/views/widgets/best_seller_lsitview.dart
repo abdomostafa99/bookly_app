@@ -5,8 +5,8 @@ import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-class BestSellerListViewItem extends StatelessWidget {
-  const BestSellerListViewItem({super.key});
+class BookListViewItem extends StatelessWidget {
+  const BookListViewItem({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +41,7 @@ class BestSellerListViewItem extends StatelessWidget {
                   SizedBox(
                     width: MediaQuery.of(context).size.width * 0.5,
                     child: Text(
-                      'Harry Poter And The Goblet OF Fire',
+                      'Audry Magee The Colony',
                       style: Styles.textStyle20
                           .copyWith(fontFamily: kSecondryFont),
                       maxLines: 2,
