@@ -48,14 +48,14 @@ class BookListViewItem extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 3,
                   ),
                   Text(
                     'J.K. Rowling',
                     style: Styles.textStyle14,
                   ),
-                  const SizedBox(
+                  SizedBox(
                     height: 3,
                   ),
                   Row(
@@ -66,7 +66,7 @@ class BookListViewItem extends StatelessWidget {
                       ),
                       Spacer(),
                       Padding(
-                        padding: const EdgeInsets.only(right: 16),
+                        padding: EdgeInsets.only(right: 16),
                         child: BookRatingWidget(),
                       )
                     ],
