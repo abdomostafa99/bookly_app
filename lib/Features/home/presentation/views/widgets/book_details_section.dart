@@ -19,7 +19,10 @@ class BookDetaildSection extends StatelessWidget {
         ),
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.25),
-          child: const CustomListViewItem(),
+          child: const CustomBooksImage(
+            imageUrl:
+                'https://marketplace.canva.com/EAFf0E5urqk/1/0/1003w/canva-blue-and-green-surreal-fiction-book-cover-53S3IzrNxvY.jpg',
+          ),
         ),
         const SizedBox(
           height: 43,
@@ -46,6 +49,8 @@ class BookDetaildSection extends StatelessWidget {
           height: 18,
         ),
         BookRatingWidget(
+          rating: '8',
+          count: '12',
           mainAxisAlignment: MainAxisAlignment.center,
         ),
         const SizedBox(

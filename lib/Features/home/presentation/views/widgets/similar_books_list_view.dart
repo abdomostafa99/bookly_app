@@ -17,7 +17,10 @@ class SimilarBooksListView extends StatelessWidget {
             itemBuilder: (context, index) {
               return Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 5),
-                child: CustomListViewItem(),
+                child: CustomBooksImage(
+                  imageUrl:
+                      'https://marketplace.canva.com/EAFf0E5urqk/1/0/1003w/canva-blue-and-green-surreal-fiction-book-cover-53S3IzrNxvY.jpg',
+                ),
               );
             }),
       ),

@@ -21,16 +21,16 @@ class HomeViewBody extends StatelessWidget {
               CustomAppBar(),
               FeaturedBooksListView(),
               Padding(
-                padding: EdgeInsets.only(top: 50, bottom: 30, left: 24),
+                padding: EdgeInsets.only(top: 50, bottom: 30, left: 18),
                 child: Text(
-                  'Best Seller',
+                  'Newest Books',
                   style: Styles.textStyle18,
                 ),
               ),
             ],
           ),
         ),
-        BestSellerListView()
+        SliverFillRemaining(child: BestSellerListView())
       ],
     );
   }

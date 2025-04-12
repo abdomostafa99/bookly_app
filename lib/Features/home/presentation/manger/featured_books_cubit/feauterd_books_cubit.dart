@@ -5,8 +5,8 @@ import 'package:equatable/equatable.dart';
 
 part 'feauterd_books_state.dart';
 
-class FeauterdBooksCubit extends Cubit<FeatuerdBooksState> {
-  FeauterdBooksCubit(this.homeRepo) : super(FeatuerdBooksInitial());
+class FeatuerdBooksCubit extends Cubit<FeatuerdBooksState> {
+  FeatuerdBooksCubit(this.homeRepo) : super(FeatuerdBooksInitial());
 
   final HomeRepo homeRepo;
 
